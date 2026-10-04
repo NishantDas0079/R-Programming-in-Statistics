@@ -31,13 +31,14 @@ Every topic follows the same four-beat structure:
 flowchart LR
     A[Unit 1<br/>Where data comes from] --> B[Unit 2<br/>Learn the R language]
     B --> C[Unit 3<br/>Apply R to Statistics]
-    C --> D[📋 Cheat Sheet<br/>Final revision]
+    C --> D[Cheat Sheet<br/>Final revision]
 
     style A fill:#1e3a8a,color:#fff
     style B fill:#1d4ed8,color:#fff
     style C fill:#2563eb,color:#fff
     style D fill:#f59e0b,color:#111
 ```
+
 
 > **📘 Reading tip:** Finish **Unit 2** fully before **Unit 3** — almost every regression and time-series concept depends on data frames, vectors, and `dplyr`. **Unit 1** is a standalone "where does data come from?" chapter and can be read any time.
 
